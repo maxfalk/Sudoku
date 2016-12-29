@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "command": "gnome-terminal",
+    "isShellCommand": true,
+    "args": ["-x"],
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "runDebug",
+            "args": ["./Soduku/bin/Debug/Soduku.exe"]
+        },
+        {
+            "taskName": "runRelease",
+            "args": ["./Soduku/bin/Release/Soduku.exe"]
+        }
+    ]
+}
